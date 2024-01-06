@@ -50,7 +50,7 @@ body {
 }
 
 header {
-  background-image: url("/resources/developer.png");
+  background-image: url("resources/developer.png");
   background-repeat: no-repeat;
   padding: 5px 0 0 100px;
 }
@@ -84,7 +84,7 @@ li > a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-image: url("/resources/header_bg.png");
+  background-image: url("resources/header_bg.png");
   background-size: 70% 80%;
   background-repeat: no-repeat;
   background-position: bottom right;
@@ -145,6 +145,8 @@ li > a {
 
 .Summery-Works-Education {
   display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 60px;
   margin: 0 auto;
   border-radius: 10px;
@@ -167,4 +169,39 @@ li > a {
   color: #757575;
   font-size: 20px;
   font-weight: 600;
+}
+.button-alignment {
+  text-align: center;
+  margin-top: 40px;
+}
+.footer-parts {
+  display: flex;
+  justify-content: space-around;
+}
+.social-media-container {
+  width: 50%;
+  margin-right: 117px;
+}
+
+footer h2 {
+  color: #181818;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+form > input,
+textarea {
+  display: block;
+  margin-bottom: 20px;
+  padding: 12px 25px;
+  border: none;
+  width: 300px;
+  border-radius: 5px;
+  background: #fff;
 }
