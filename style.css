@@ -1,0 +1,90 @@
+/* common css for this project */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+.container-bg {
+  background-color: #fff8f3;
+}
+.icon-color {
+  color: #fd6e0a;
+}
+.primary-button {
+  border-radius: 5px;
+  background: #fd6e0a;
+  padding: 10px 17px;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+}
+.secondary-button {
+  border-radius: 5px;
+  border: 1px solid #fd6e0a;
+  padding: 10px 17px;
+  color: #fd6e0a;
+  font-size: 20px;
+  font-weight: 700;
+}
+.container-description {
+  color: #757575;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+}
+header {
+  background-image: url("/resources/developer.png");
+  background-repeat: no-repeat;
+  padding: 5px 0 0 100px;
+}
+.developer {
+  color: #181818;
+  font-size: 45px;
+  font-weight: 800;
+  line-height: normal;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px 0 0;
+}
+ul {
+  display: flex;
+  align-items: center;
+}
+ul > li {
+  list-style: none;
+  margin-left: 51px;
+}
+li > a {
+  text-decoration: none;
+  color: #474747;
+  font-size: 20px;
+  font-weight: 400;
+}
+.developer-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url("/resources/header_bg.png");
+  background-size: 70% 80%;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+.dev-title {
+  color: #474747;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 600;
+}
+.dev-name {
+  color: #181818;
+  font-size: 85px;
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0;
+}
