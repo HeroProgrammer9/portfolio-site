@@ -35,13 +35,18 @@ body {
   line-height: 30px; /* 166.667% */
 }
 .container {
-  margin: 130px auto;
+  margin: 130px auto 0 auto;
   width: 900px;
   border-radius: 10px;
   padding: 70px 100px;
 }
 .container-title {
   text-align: center;
+}
+.container-heading {
+  color: #181818;
+  font-size: 35px;
+  font-weight: 700;
 }
 
 header {
@@ -112,6 +117,25 @@ li > a {
 }
 .detail > h2 {
   color: #474747;
+  font-size: 20px;
+  font-weight: 700;
+}
+.skills-container {
+  display: flex;
+  gap: 24px;
+  margin: 0 auto;
+  /* width: 900px; */
+  border-radius: 10px;
+  padding: 0 100px;
+}
+.skills {
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  padding: 33px 30px;
+}
+.skills > h2 {
+  color: #181818;
   font-size: 20px;
   font-weight: 700;
 }
